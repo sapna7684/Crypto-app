@@ -20,7 +20,7 @@ useEffect(() => {
 },[]);
 
 useEffect(() => {
-if(screenSize < 768){
+if(screenSize < 990){
     setActiveMenu(false)
 } else {
     setActiveMenu(true)
@@ -28,7 +28,7 @@ if(screenSize < 768){
 },[screenSize]);
 
 const hideMenu = () => {
-    if(screenSize < 768){
+    if(screenSize < 990){
         setActiveMenu(false)
     } else {
         setActiveMenu(true)
